@@ -5,7 +5,7 @@ import pprint
 
 def filter_by_widgetKeyName(widgetKeyName):
 
-	client = MongoClient()
+	client = MongoClient(<URI>)
 	database = client["floatdb"]
 	collection = database["fpPaidWidgetRequestCollection"]
 
