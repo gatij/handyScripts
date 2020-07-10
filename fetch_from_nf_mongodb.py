@@ -5,7 +5,7 @@ import pprint
 
 def filter_by_widgetKeyName(widgetKeyName):
 
-	client = MongoClient("mongodb://gatij_jain_user:708a%40Tm%24%26X%40y3Y2q7T%24@SG-nfmongo-24206.servers.mongodirector.com:27017,SG-nfmongo-24207.servers.mongodirector.com:27017,SG-nfmongo-24208.servers.mongodirector.com:27017/admin?readPreference=secondaryPreferred")
+	client = MongoClient()
 	database = client["floatdb"]
 	collection = database["fpPaidWidgetRequestCollection"]
 
